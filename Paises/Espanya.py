@@ -5,4 +5,4 @@ Created on 25 oct. 2020
 '''
 class Espanya:
     def saludoAEspanya(self):
-        return "Hola España"
+        return "Hola, España"

@@ -4,9 +4,14 @@ Created on 25 oct. 2020
 @author: tavia
 '''
 
-from Paises import Espanya
+from Paises import Espanya, NuevaZelanda, Chile
+
 
 print ("Hola mundo!!!")
 
-spain = Espanya.Espanya ()
-print (spain.saludoAEspanya())
+sp = Espanya.Espanya ()
+nz = NuevaZelanda.NuevaZelanda ()
+ch = Chile.Chile ()
+print (sp.saludoAEspanya())
+print (nz.saludoANuevaZelanda())
+print (ch.saludoAChile())
